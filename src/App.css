@@ -1,0 +1,10 @@
+.App {
+  background-image: url(/Users/raymondalvin/Desktop/react/collegecompetent/public/berkeley1.jpeg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+
+
+}
