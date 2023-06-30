@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
+import Footer from './Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           about
         </Route>
       </Switch>
+      <Footer/>
     </Router>
       
 
