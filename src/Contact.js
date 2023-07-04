@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
-function Contact() {
+function Contact({ title }) {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -17,11 +17,12 @@ function Contact() {
 
   return (
     <div className='create'>
-        <h2>Submit a new form</h2>
-        <form onSubmit={handleSubmit}>
+        <h2>{title}</h2>
+        <form onSubmit={handleSubmit} action="https://formsubmit.co/support@collegecompetent.com" method="POST">
             <label>Name: </label>
             <input 
                 type='text'
+                placeholder='John Doe'
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -29,7 +30,8 @@ function Contact() {
 
             <label>Email: </label>
             <input 
-                type='text'
+                type='email'
+                placeholder='example@gmail.com'
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -39,6 +41,7 @@ function Contact() {
             <input 
                 type='text'
                 required
+                placeholder='949-745-4382'
                 value={number}
                 onChange={(e) => setNumber(e.target.value)}
             />

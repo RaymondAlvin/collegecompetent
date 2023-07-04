@@ -19,13 +19,13 @@ function App() {
          <Home />
         </Route>
         <Route exact path="/essayreading">
-          <Contact />
+          <Contact title="Schedule your FREE Essay Reading Consultation!"/>
         </Route>
         <Route exact path="/thecompletepackage">
-          the complete package
+          <Contact title="Schedule your FREE Complete Package Consultation!"/>
         </Route>
         <Route exact path="/activitiesenhancer">
-          activities enhancer
+          <Contact title="Schedule your FREE Activities Enhancer Consultation!"/>
         </Route>
         <Route exact path="/about">
           <About />
