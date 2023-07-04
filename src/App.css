@@ -1,10 +1,57 @@
 .App {
   background-image: url(/Users/raymondalvin/Desktop/react/collegecompetent/public/berkeley1.jpeg);
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
   background-size: cover;
   background-position: center;
+  height: 800px;
+  margin-top:0px;
 
 
 }
+
+.heading {
+  text-align: center;
+ 
+
+}
+
+.heading h1 {
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: "STIX Two Text", Sans-serif;
+
+}
+
+.head {
+  text-align:center;
+}
+
+.head h1 {
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: "STIX Two Text", Sans-serif;
+
+}
+
+
+
+.head1 {
+  text-align:left;
+  margin-top: 40px;
+}
+
+.head1 h1 {
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: "STIX Two Text", Sans-serif;
+
+}
+
+.head1 p {
+  text-align: left;
+  font-size: 20px;
+  font-family: "STIX Two Text", Sans-serif;
+}
+
+/* .container {
+  height: 300px;
+} */
