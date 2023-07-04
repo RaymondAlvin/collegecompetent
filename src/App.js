@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
+import About from './About';
 
 
 
@@ -16,14 +17,17 @@ function App() {
         <Route exact path="/">
          <Home />
         </Route>
-        <Route exact path="/collegeconsulting">
-          collegeconsulting
+        <Route exact path="/essayreading">
+          essay reading
         </Route>
-        <Route exact path="/essayhelp">
-          essayhelp
+        <Route exact path="/thecompletepackage">
+          the complete package
+        </Route>
+        <Route exact path="/activitiesenhancer">
+          activities enhancer
         </Route>
         <Route exact path="/about">
-          about
+          <About />
         </Route>
       </Switch>
       <Footer/>
