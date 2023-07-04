@@ -2,7 +2,7 @@
   background-image: url(/Users/raymondalvin/Desktop/react/collegecompetent/public/berkeley1.jpeg);
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 850px;
   margin-top:0px;
 
 
@@ -51,6 +51,15 @@
   font-size: 20px;
   font-family: "STIX Two Text", Sans-serif;
 }
+
+.head1 h2 {
+  margin-top: 15px;
+}
+
+.navposition {
+  position: fixed;
+}
+
 
 /* .container {
   height: 300px;
