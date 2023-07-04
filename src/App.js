@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
 import About from './About';
+import Contact from './Contact';
 
 
 
@@ -18,7 +19,7 @@ function App() {
          <Home />
         </Route>
         <Route exact path="/essayreading">
-          essay reading
+          <Contact />
         </Route>
         <Route exact path="/thecompletepackage">
           the complete package
