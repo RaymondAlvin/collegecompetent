@@ -16,7 +16,7 @@ function Contact({ title }) {
     }
 
   return (
-    <div className='create'>
+    <div className='create' style={{fontFamily: "STIX Two Text, sans-serif"}}>
         <h2>{title}</h2>
         <form onSubmit={handleSubmit} action="https://formsubmit.co/support@collegecompetent.com" method="POST">
             <label>Name: </label>
