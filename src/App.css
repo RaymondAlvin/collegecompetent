@@ -1,5 +1,5 @@
 .App {
-  background-image: url(/Users/raymondalvin/Desktop/react/collegecompetent/src/images/berkeley2.png);
+  background-image: url(../src/images/berkeley2.png);
   background-size: cover;
   background-position: center;
   height: 850px;
