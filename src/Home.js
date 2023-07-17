@@ -6,8 +6,7 @@ import Footer from './Footer';
 function Home() {
   return (
     <div >
-        <div >
-            
+        <div>
         </div>
         <div  className="App" style={{paddingTop: '200px'}}>
             
