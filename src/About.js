@@ -6,7 +6,7 @@ function About() {
         <div className="container head2" style={{fontFamily: "STIX Two Text, sans-serif"}}>
             <div className="row">
                 <div className="col" style={{textAlign: 'center'}}>
-                    <img src={require('../src/images/kite_pfp.jpeg')}  style={{width: '350px', height: '400px', borderRadius: '30%'}} />
+                    <img src={require('../src/images/kite_pfp.jpg')}  style={{width: '350px', height: '400px', borderRadius: '30%'}} />
                     <h2>
                       <a href="https://www.linkedin.com/in/kite-ogawa-6480a1242/" target="_blank" style={{ textDecoration: 'none' }}>Kite Ogawa</a>
                     </h2>
@@ -24,7 +24,7 @@ function About() {
 </p>
                 </div>
                 <div className="col" style={{textAlign: 'center'}}>
-                    <img src={require('../src/images/nathan_pfp.jpeg')}  style={{ width: '350px', height: '400px', borderRadius: '30%'}} />
+                    <img src={require('../src/images/nathan_pfp.jpg')}  style={{ width: '350px', height: '400px', borderRadius: '30%'}} />
                     <h2>
                     <a href="https://www.linkedin.com/in/nathan-gibney-759572253/" target="_blank" style={{ textDecoration: 'none' }}>Nathan Gibney</a>
                     </h2>
