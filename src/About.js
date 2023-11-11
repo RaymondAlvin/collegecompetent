@@ -1,4 +1,5 @@
 import React from 'react'
+import CalendlyWidget from './CalendlyWidget'
 
 function About() {
   return (
@@ -20,6 +21,7 @@ function About() {
                       <a href="https://www.linkedin.com/in/raymond-alvin-5891951b9/" target="_blank" style={{ textDecoration: 'none' }}>Raymond Alvin</a>
                     </h2>
                     <p style={{textAlign: 'center'}}>Electrical Engineering and Computer Sciences at UC Berkeley</p>
+                    <CalendlyWidget/>
                     <p style={{textAlign: 'left'}}>Raymond is an exceptional individual whose academic achievements and professional experiences speak volumes about his dedication and passion for technology and engineering. With a full-ride scholarship to the prestigious Berkeley, he is set to pursue a Bachelor's degree in Electrical Engineering and Computer Sciences. Raymond's impressive resume includes a software engineering internship at the NASA Jet Propulsion Laboratory, where he gained invaluable real-world experience in his field. His stellar academic record earned him admission into esteemed institutions such as Cornell, Georgia Tech, Johns Hopkins, UIUC, USC, and Purdue. As an AWS Certified professional, Raymond possesses the expertise and skills necessary to excel in the dynamic field of computer sciences. With his unwavering commitment to excellence, Raymond is poised to make a significant impact in the world of technology and engineering.
 </p>
                 </div>

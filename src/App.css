@@ -123,6 +123,23 @@
 }
 
 
-.container {
+.hoverbutton {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
 
+.hoverbutton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.hoverbutton:focus,
+.hoverbutton:active {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
 }
